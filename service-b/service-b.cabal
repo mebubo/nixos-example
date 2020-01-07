@@ -1,0 +1,14 @@
+name:                service-b
+version:             0.1.0.0
+build-type:          Simple
+
+executable service-b
+  hs-source-dirs:     src
+  build-depends:      base
+                    , servant-server
+                    , aeson
+                    , time
+                    , wai
+                    , warp
+  main-is:            Main.hs
+  default-language:   Haskell2010
