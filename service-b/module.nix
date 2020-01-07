@@ -19,8 +19,8 @@ in
     enable = true;
     virtualHosts.localhost = {
       locations = {
-        "service-b" = {
-          proxyPass = "http://localhost:8081";
+        "/service-b/" = {
+          proxyPass = "http://localhost:8081/";
         };
       };
     };
