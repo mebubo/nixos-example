@@ -15,7 +15,7 @@ let
   isoMultiBoot = { ... }: {
     isoImage = {
       makeEfiBootable = true;
-	  makeUsbBootable = true;
+      makeUsbBootable = true;
     };
   };
 
