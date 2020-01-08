@@ -9,3 +9,9 @@ nix-build -A vm nixos.nix
 ```sh
 ./result/bin/run-nixos-vm
 ```
+
+# Build a bootable iso image
+
+```sh
+nix-build -A iso nixos.nix
+```
