@@ -1,10 +1,10 @@
 { configuration ? ./configuration.nix }:
 
-# http://www.haskellforall.com/2018/08/nixos-in-production.html
 let
 
   nixos = import <nixpkgs/nixos>;
 
+  # http://www.haskellforall.com/2018/08/nixos-in-production.html
   withImports = imports: nixos {
     system = "x86_64-linux";
     configuration = { imports = [ configuration ] ++ imports; };
