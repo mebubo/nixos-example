@@ -16,7 +16,6 @@ in
   };
 
   services.nginx = {
-    enable = true;
     virtualHosts.localhost = {
       locations = {
         "/service-a/" = {
