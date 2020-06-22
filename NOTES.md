@@ -1,0 +1,22 @@
+# NixOS
+
+- Build your OS
+    - immutable
+    - complete
+	- software builds
+	- services
+	- config files
+	- users
+	- group by service, not by type of thing
+    - multiple formats
+	- iso
+	- disk image
+	- cloud
+	- raspberry pi
+- Describe it in a purely functional languge
+    - comprehensible
+	- local reasoning
+    - modular
+    - no effects
+    - reusable
+- Like dotfiles, but for the whole system
