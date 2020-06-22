@@ -20,7 +20,7 @@ in
     virtualHosts.localhost = {
       locations = {
         "/service-a/" = {
-          proxyPass = "http://localhost:2000/";
+          proxyPass = "http://127.0.0.1:2000/";
         };
       };
     };
