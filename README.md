@@ -2,8 +2,16 @@
 
 ## Build
 
+### Option 1
+
 ```sh
 nix-build -A vm nixos.nix
+```
+
+### Option 2
+
+```sh
+nixos-generate -c configuration.nix -f vm
 ```
 
 ## Run
@@ -16,9 +24,18 @@ nix-build -A vm nixos.nix
 
 ## Build
 
+### Option 1
+
 ```sh
 nix-build -A iso nixos.nix
 ```
+
+### Option 2
+
+```sh
+nixos-generate -c configuration.nix -f iso
+```
+
 ## Result
 
 ```
